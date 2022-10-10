@@ -51,7 +51,7 @@ footer{
 }
 .inner-footer{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 2em;
 }
@@ -62,4 +62,7 @@ footer{
   padding: 0.8em;
   background-color: black;
   text-align: center;
+}
+.hover-str:hover{
+  color: rgb(3, 185, 185);
 }
