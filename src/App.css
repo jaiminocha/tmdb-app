@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Navbar  */
+
 .navbar{
   display: flex;
   background-color: rgb(33, 33, 33);
@@ -27,12 +30,36 @@
 .nav-item a{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
-  padding-right: 5em;
 }
 .nav-item{
   display: flex;
+  padding-right: 5em;
 }
 a:hover{
   color: rgba(255, 255, 255, 0.948);
   text-decoration: underline;
+}
+
+/* Footer  */
+
+footer{
+  background-color: rgb(33, 33, 33);
+  color: whitesmoke;
+}
+.icons li{
+  list-style: none;
+}
+.inner-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+.footer-text{
+  padding: 1em 2em;
+}
+.copyright{
+  padding: 0.8em;
+  background-color: black;
+  text-align: center;
 }
