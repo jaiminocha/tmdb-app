@@ -5,10 +5,11 @@
 }
 body{
   color: white;
-  background-color: black;
-}
-.home-div{
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('../public/universe.jpg');
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat; 
 }
 
 /* Navbar  */
@@ -44,8 +45,11 @@ body{
 }
 a:hover{
   color: white;
-  text-shadow: 1px 1px #04e908;
+  text-shadow: 1px 1px #21eafe;
   text-decoration: underline;
+}
+#spl-char{
+  color: #21eafe;
 }
 
 
@@ -68,17 +72,20 @@ a:hover{
 
 /* Movie box  */
 .movie-box{
-  /* border: 1px solid green; */
-  /* box-shadow: 5px 5px 5px cyan; */
-  border-radius: 2px;
-  box-shadow: 0 30px 70px 0 #04e908, 0 17px 50px 0 rgba(0, 0, 0, .19);
+  border-radius: 5px;
+  /* box-shadow: 0 30px 70px 0 #04e908, 0 17px 50px 0 rgba(0, 0, 0, .19); */
   margin: 1em;
+}
+.img-card{
+  border-radius: 5px;
+  width: 20em;
 }
 
 
 /* Footer  */
 
 footer{
+  margin-top: 5em;
   background-color: rgb(33, 33, 33);
   color: whitesmoke;
 }

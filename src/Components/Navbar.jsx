@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <div className='navbar-div'>
         <div className="logo">
-            <img id='logo-img' src='./logo192.png' alt='logo-img' />
-            The Movie App
+            <img id='logo-img' src='./logo-video.png' alt='logo-img' />
+              The <span id="spl-char">Movie</span> App
         </div>
         
         <div className="menus">
