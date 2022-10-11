@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className='navbar'>
+    <div className='navbar-div'>
         <div className="logo">
             <img id='logo-img' src='./logo192.png' alt='logo-img' />
             The Movie App

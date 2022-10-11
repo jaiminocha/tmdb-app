@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 body{
+  color: white;
+  background-color: black;
+}
+.home-div{
   background-color: black;
 }
 
 /* Navbar  */
 
-.navbar{
+.navbar-div{
   display: flex;
-  background-color: rgb(33, 33, 33);
+  background-color: black;
   color: white;
   justify-content: space-between;
 }
@@ -45,13 +49,18 @@ a:hover{
 }
 
 
+/* Carousel  */
+/* .cara-box{
+  height: 20vh;
+} */
+
 /* Container  */
 
-.container{
+.container-div{
   width: 95%;
   margin: 2em 2em;
 }
-.grid{
+.grid-div{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
